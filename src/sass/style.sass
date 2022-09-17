@@ -167,3 +167,49 @@
             color: #FFF 
             padding: 1rem
             font-size: .9rem
+
+footer
+    background-color: $footer-bg
+    color: $text-color
+    padding: 5rem 2rem
+
+    .footer-container
+        max-width: 1200px
+        margin: 0 auto
+        display: flex
+        flex-wrap: wrap
+
+        .footer-title
+            color: #FFF 
+            font-weight: bold
+            margin-bottom: 1rem
+    .footer-desc-container, .footer-links-container
+        width: 50%
+
+    .footer-desc-container
+        p
+            width: 80%
+            line-height: 1.3rem
+    
+    .footer-links-container
+        display: flex
+
+        &-list
+            padding: 0 1rem
+
+            li
+                margin-bottom: .5rem
+
+                a
+                    color: $text-color
+                    transistion: .5s
+
+                    &:hover
+                        color: #FFF 
+
+    .footer-copy-right-container
+        width: 100%
+        margin-top: 3rem
+
+        p
+            margin-bottom: 1rem
